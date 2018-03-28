@@ -35,4 +35,7 @@ class Trip{
     this.driverId = driver.id
     store.trips.push(this)
   }
+  driver(){
+    return store.drivers.find(driver => driver.id === this.driverId)
+  }
 }
