@@ -11,7 +11,7 @@ class Driver{
     return store.trips.filter(trip => trip.driverId === this.id)
   }
   passengers(){
-    this.trips().filter
+    this.trips().Object.values[1]
   }
 }
 
