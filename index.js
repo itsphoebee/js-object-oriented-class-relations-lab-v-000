@@ -25,6 +25,9 @@ class Passenger{
   trips(){
     store.trips.filter(trip => trip.passengerId === this.id)
   }
+  drivers(){
+    store.drivers.filter(driver => driver.passengerId === this.id)
+  }
 }
 
 let tripId = 0
