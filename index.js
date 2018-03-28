@@ -12,8 +12,9 @@ class Driver{
   }
   passengers(){
     const previousPassengers = []
-    return store.passengers.filter(passenger => passenger.driverId === this.id)
-    return previousPassengers.push(this)
+    return store.passengers.filter(passenger => passenger.driverId === this.id
+    previousPassengers.push(this))
+    return previousPassengers
   }
 }
 
