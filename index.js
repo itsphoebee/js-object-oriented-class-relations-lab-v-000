@@ -5,5 +5,6 @@ class Driver{
   constructor(name){
     this.name = name
     this.id = ++driverId
+    scuber.drivers.push(this)
   }
 }
