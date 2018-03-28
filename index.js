@@ -35,3 +35,4 @@ class Trip{
     this.driverId = driver.Id
     store.trips.push(this)
   }
+}
