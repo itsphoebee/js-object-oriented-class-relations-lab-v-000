@@ -11,6 +11,7 @@ class Driver{
     return store.trips.filter(trip => trip.driverId === this.id)
   }
   passengers(){
+    const previousPassengers = []
     return store.passengers.filter(passenger => passenger.driverId === this.id)
   }
 }
